@@ -173,6 +173,8 @@ The plugin includes CSS modules for styling. You can customize the appearance by
 
 ```css
 :root {
+  /* add the following line if you want dark mode support */
+  color-scheme: light dark; 
   --callout-border-radius: 8px;
   --callout-padding: 1rem;
   /* ... more variables */
