@@ -1,0 +1,27 @@
+{
+  "extends": "../tsconfig.json",
+  "exclude": [],
+  "include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.mjs",
+    "**/*.cjs",
+    "**/*.ts",
+    "**/*.tsx",
+    "../src/**/*.ts",
+    "../src/**/*.tsx",
+    "next.config.mjs",
+    ".next/types/**/*.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@payload-config": ["./payload.config.ts"],
+      "payload-callouts": ["../src/index.ts"],
+      "payload-callouts/rsc": ["../src/exports/rsc.ts"],
+      "payload-callouts/converters": ["../src/exports/converters.ts"]
+    },
+    "noEmit": true,
+    "emitDeclarationOnly": false
+  }
+}
