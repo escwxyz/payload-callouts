@@ -188,3 +188,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 MIT License - see [LICENSE](./LICENSE) file for details.
+
+## Credits
+
+Part of the CSS styles are from [rehype-callouts](https://github.com/lin-stephanie/rehype-callouts).
